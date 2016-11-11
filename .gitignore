@@ -1,0 +1,19 @@
+# Ignore bundler config.
+/.bundle
+
+# Ignore all logfiles and tempfiles.
+/log/*
+!/log/.keep
+/tmp
+
+# Ignore application configuration
+config/database.yml
+
+# Ignore automatically generated files from OSX
+.DS_Store
+
+# Ignore node_modules
+node_modules/
+
+# Ignore Webpack Generated Bundle
+app/assets/javascripts/
